@@ -228,3 +228,19 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* ★ Featured Project Card (Mobile) */
+@media screen and (max-width: 1024px) {
+  .project-card--featured {
+    grid-column: 1 / -1;
+  }
+  .project-cta-group {
+    flex-direction: column;
+  }
+  .btn-cta {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.75rem;
+    padding: 0.6rem 1rem;
+  }
+}
